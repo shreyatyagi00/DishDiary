@@ -1,16 +1,46 @@
-# React + Vite
+## Dish Diary
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Dish Diary is a modern recipe management web application built with React.  
+It allows users to create, update, delete, and organize their favorite recipes with a clean and premium UI.
 
-Currently, two official plugins are available:
+---------------------------------------------------------------------------------------------------------------------------
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- Create Recipes
+- Update & Edit Recipes
+- Delete Recipes
+- Favourite System
+- Persistent Data using LocalStorage
+- Modern Glassmorphism UI
+- Fully Responsive Design
+- Reload-Safe Routing (Vercel Configured)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+----------------------------------------------------------------------------------------------------------------------------
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- React Router DOM
+- Context API
+- React Hook Form
+- Tailwind CSS
+- LocalStorage
+- Vercel (Deployment)
+
+----------------------------------------------------------------------------------------------------------------------------
+## What I Learned
+
+- Global State Management using Context API
+- Handling Persistent State with LocalStorage
+- Synchronizing Favourite & Recipe Data
+- Fixing SPA Reload Issues on Deployment
+- Building Clean & Responsive UI with Tailwind
+- Handling Edge Cases (Broken Images, Data Hydration)
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+## Live Demo : https://dish-diary-murex.vercel.app
+
+
+
