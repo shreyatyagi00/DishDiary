@@ -5,7 +5,7 @@ const Fav = () => {
     <RecipeCard key={recipe.id} recipe={recipe}/>
     ))
   return (
-    <div className="flex flex-wrap">
+    <div className="flex flex-wrap justify-center gap-8">
   {(favourite.length>0?renderrecipes:"No favourite found!")}
     </div>
   )
