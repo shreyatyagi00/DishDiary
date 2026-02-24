@@ -184,10 +184,10 @@ const SingleRecipe = () => {
               className="w-full bg-gray-800 rounded-xl p-3 outline-none focus:ring-2 focus:ring-blue-500 transition"
               {...register("category")}
             >
-              <option value="cat-1">Category 1</option>
-              <option value="cat-2">Category 2</option>
-              <option value="cat-3">Category 3</option>
-              <option value="cat-4">Category 4</option>
+              <option value="Breakfast">Breakfast</option>
+              <option value="Lunch">Lunch</option>
+              <option value="Snacks">Snacks</option>
+              <option value="Dinner">Dinner</option>
             </select>
 
             <div className="flex gap-4 pt-4">
